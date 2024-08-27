@@ -1,0 +1,49 @@
+---
+title: "Data Science Homework v2"
+format: html
+editor: visual
+---
+
+# Step 3 Questions
+
+## What do you think being a data scientist is all about?
+
+### Organizing, manipulating, and presenting data that is efficient to utilize for analytical and decision making purposes.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+### Data scientists use their skills to automate data flows, organize the data, and format the data stuctures so that statisticians can then apply rigorous mathematical techniques to make organizationally important decisions.
+
+## How do you view yourself in relation to these two areas?
+
+### Working in an clinical immunology lab, I have historically not had much pressure to apply in depth and "fancy" models to data, nor was I provided many tools to automate data flows myself. After being exposed to data science tools in ST555 and learning more about modeling in the other ST classes, I've taken it upon myself to try to utilize what simple tools I have to automate data workflows to reduce error and spend my analytical time in a more efficient manner. I've also tried to apply statistical models where appropriate for analytical reasons. In this way, I think I operate somewhere in the middle between pure data science and pure statistics.
+
+# Petal Code
+
+```{r}
+y <-density(iris$Petal.Width)
+```
+
+### Class of y is:
+
+```{r}
+class(y)
+```
+
+### Type of y is:
+
+```{r}
+typeof(y)
+```
+
+### Structure of y is:
+
+```{r}
+str(y)
+```
+
+### Plot y
+```{r}
+#| echo: false
+plot(y, main="Density of Petal Width")
+```
