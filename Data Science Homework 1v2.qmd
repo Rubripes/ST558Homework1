@@ -1,5 +1,7 @@
 ---
-title: "Data Science Homework v2"
+title: |
+  | Data Science Homework 
+  | Matt Bray
 format: html
 editor: visual
 ---
@@ -43,12 +45,9 @@ str(y)
 ```
 
 ### Plot y
+
 ```{r}
 #| echo: false
 plot(y, main="Density of Petal Width")
 ```
 
-```{r}
-#| echo: false
-#test 5
-```
